@@ -1,0 +1,19 @@
+html{
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643184457_4-phonoteka-org-p-fon-neitralnii-svetlii-4.png);
+    font-family: cursive;
+    text-align: center;
+}
+h3, ol, ul{
+    text-align: left;
+}
+ul, ol {
+    border-style: ridge;
+    border-radius: 30px;
+}
+h1 {
+    color: darkred;
+    text-shadow: 1px 1px black;
+}
+.h3_test_class{
+    color: darkblue;
+}
