@@ -1,0 +1,78 @@
+html {
+    background-image: url(https://klike.net/uploads/posts/2022-11/1667883392_3-52.jpg);
+    padding-left: 10px;
+}
+h1, h2 {
+    text-align: center;
+    font-family: cursive;
+    color: MediumSlateBlue;
+    text-shadow: 1px 1px 1px black;
+}
+.help_h1 {
+    font-size: 25px;
+}
+.help_h2 {
+    font-size: 22px;
+}
+ul.menu {
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    font-family: cursive;
+   }
+   ul.menu li {
+    display: inline;
+    margin-right: 5px;
+    border: 2px solid darkblue;
+    padding: 3px;
+    color: black;
+    background-color:whitesmoke;
+   }
+   [data-title] {
+    position: relative;
+    cursor: help;
+  }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    font-family: calibri;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 700px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -100%;
+    left: 105%;
+    font-size: medium;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+.lists {
+    border-style: ridge;
+    border-radius: 30px;
+    width: 150px;
+    background-color: whitesmoke;
+    font-family: cursive;
+    font-size: 17px;
+}
+p {
+    font-family: calibri;
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    text-shadow: 0.5px 0.5px 1px lightslategrey;
+}
+.content {
+    padding-left: 375px;
+}
+h3{
+    font-size: 25px;
+}
