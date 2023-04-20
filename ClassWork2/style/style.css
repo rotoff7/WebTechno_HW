@@ -1,0 +1,21 @@
+.light_theme{
+    background-color: rgb(98, 160, 214);
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+.dark_theme{
+    background-color: rgb(52, 48, 48);
+    color: azure;
+    font-family: cursive;
+    text-align: center;
+}
+.theme_button{
+    background-color: aqua;
+    font-family: cursive;
+    border-radius: 25px;
+    padding-left: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: large;
+}
