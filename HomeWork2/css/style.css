@@ -76,3 +76,10 @@ p {
 h3{
     font-size: 25px;
 }
+.mailSub {
+    font-size: small;
+    padding-left: 78%;
+}
+.sub {
+    padding-left: 80%;
+}
