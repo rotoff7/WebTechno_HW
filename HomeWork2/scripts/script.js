@@ -14,12 +14,15 @@ function onInput() {
 
 function getMail(){
     var mail = document.getElementById("mailInput").value;
-    if (document.getElementById("mailInput").value === ""){
-        alert("Вы ничего не ввели.");
-    } else {
+    if (isEmailValid(input.value)){
         alert(`Спасибо! Новости будут приходить по указанному адресу: ${mail}`);
+    } else if (document.getElementById("mailInput").value === ""){
+        alert("Введите адрес электронной почты.");
+    } else {
+        alert("Введен некорректный адрес.")
     }
 }
+
 
 const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 const input = document.querySelector('input');
