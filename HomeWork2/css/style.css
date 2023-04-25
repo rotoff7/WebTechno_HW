@@ -103,13 +103,3 @@ h3{
     font-weight: normal;
     text-shadow: 1px 1px 1px black;
 }
-.mainContainer {
-    float: left;
-    padding-left: 475px;
-  }
-  .subCont {
-    float: right;
-  }
-  .crutch {
-    clear:both;
-  }

@@ -10,18 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="mainContainer">
-        <h1 class="help_h1">Привет и добро пожаловать!</h1>
-        <h2 class="help_h2">Данная страничка является тестовой, но на ней будет немного космоинформации.</h2>
+    <h1 class="help_h1">Привет и добро пожаловать!</h1>
+    <h2 class="help_h2">Данная страничка является тестовой, но на ней будет немного космоинформации.</h2>
+    <p class="mailSub">Вы можете подписаться для получения актуальной информации</p>
+    <div class="sub">
+        <input type="email" placeholder="Введите адрес почты" id="mailInput" class="for_sub">
+        <button type="button" onclick="getMail();">Подписаться</button>
     </div>
-    <div class subCont>
-        <p class="mailSub">Вы можете подписаться для получения актуальной информации</p>
-        <div class="sub">
-            <input type="email" placeholder="Введите адрес почты" id="mailInput" class="for_sub">
-            <button type="button" onclick="getMail();">Подписаться</button>
-        </div>
-    </div>
-    <hr class="crutch">
+    <hr>
     <ul class="menu">
         <li>
             <a href="author.html">Об авторе</a>
