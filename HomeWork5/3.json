@@ -1,0 +1,96 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Diana",
+            "age": 21,
+            "address": [
+                {
+                    "city": "Sestroreck",
+                    "street": "unknown",
+                    "house":"unknown",
+                    "apartment":"unknown"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Anna",
+            "age": 22,
+            "address": [
+                {
+                    "city": "SPB",
+                    "street": "проспект Науки",
+                    "house":"17",
+                    "apartment":"225"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Alexander",
+            "age": 25,
+            "address": [
+                {
+                    "city": "Priozersk",
+                    "street": "Калинина",
+                    "house":14,
+                    "apartment":27
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Dima",
+            "age": 25,
+            "address": [
+                {
+                    "city": "Priozersk",
+                    "street": "Речная",
+                    "house":2,
+                    "apartment":72
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Maxim",
+            "age": 25,
+            "address": [
+                {
+                    "city": "Priozersk",
+                    "street": "Речная",
+                    "house":2,
+                    "apartment":34
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Maxim",
+            "age": 26,
+            "address": [
+                {
+                    "city": "EKB",
+                    "street": "unknown",
+                    "house":29,
+                    "apartment":null
+                }
+            ]
+        }
+    ]
+}
+
+Решил сделать адрес в виде вложенного списка как в файле xml. 
+На семинаре мы не делали подобное для json, только перечисляли пункты в виде списка.
+Если делать также, то будет примерно вот так, однако теряется пояснение что есть что:
+// {
+//     "students": [
+//         {
+//             "id": 1,
+//             "name": "Diana",
+//             "age": 21,
+//             "address": ["Sestroreck", "test", "unknown", 21]
+//         }
+//         ]
+// }
